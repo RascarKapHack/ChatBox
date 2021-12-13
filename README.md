@@ -34,6 +34,10 @@ apt install sqlite3
 | leo  |     cc11410fc57ad8c7fd50839e7e97499a7d4de2e5cf6ac432ea848bbf6bcd1a67     |   192.168.1.63:38600    |     ko      |    ko    |
 | htag |     2652875ee631c6fee36e7ebee192e8bdcdf54566f3c380e7bd3feb2adbc879e4     |   192.168.1.63:38520    |     ok      |    ok    |
 
+## 🥡 Project Structure
+>
+![Tree](img/tree.png?style=centerme)
+
 ## ✅ Usage
 > serveur
 >>```bash
@@ -49,12 +53,12 @@ apt install sqlite3
 
 ## Serveur
 > - **We start the server with the command (cargo run).**<br>
-![Menu](img/serveur.png?style=centerme)
+![Serveur](img/serveur.png?style=centerme)
 > - **When the server is launched, the ONLINE and REGISTERED tables are created. If the REGISTERED table already exists, it is not created. Each message, registration and modification log in the database is saved in /log/sql.log /log/info.log log/credentials.log log/chat.log**<br>
 
 ## Client
 > - **We start the client with the command (cargo run).**<br>
-![Menu](img/client.png?style=centerme)
+![Client](img/client.png?style=centerme)
 > - **When launching the client, the main menu opens. You choose the first choice to register. (If you are already registered, you can directly choose the second choice).**<br>
 ![Menu](img/menu.png?style=centerme)
 >> - **Register**<br>
@@ -65,12 +69,12 @@ apt install sqlite3
 ![Inscription-Erreur](img/inscription_erreur.png?style=centerme)<br></br>
 > - **Once registered, you can log in and choose choice n°2.**
 > - **Login**.<br>
-![Menu](img/connexion.png?style=centerme)<br></br>
+![Connexion](img/connexion.png?style=centerme)<br></br>
 > - **OTP entry for 2FA authentication**.<br>
-![Menu](img/otp.png?style=centerme)<br></br>
+![OTP](img/otp.png?style=centerme)<br></br>
 >> - **In case the entered identifiers are correct and verified in the database, the connection is successful.**<br>
-![Menu](img/connexion_successful.png?style=centerme)<br></br>
+![Connexion_Successful](img/connexion_successful.png?style=centerme)<br></br>
 >> - ⛔ **In case the entered credentials are not correct (Password or OTP), the connection fails and the TCP link is cut.**<br>
-![Menu](img/connexion_error.png?style=centerme)<br></br>
+![Connexion_Error](img/connexion_error.png?style=centerme)<br></br>
 > - **Once you have authenticated, you can chat and enjoy a secure discussion.**<br>
-![Menu](img/chat.png?style=centerme)<br></br>
+![Chat](img/chat.png?style=centerme)<br></br>
