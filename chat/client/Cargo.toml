@@ -1,0 +1,19 @@
+[package]
+name = "client"
+version = "0.1.0"
+authors = ["Guillaume de Cumont  <guillaumedecumont@gmail.com>"]
+
+[dependencies]
+chrono = "0.4"
+qrcode = "0.12"
+image = "0.23.14"
+colored = "2"
+sha256 = "1.0.3"
+
+[dependencies.otp]
+git = "https://github.com/TimDumol/rust-otp"
+
+[dependencies.magic-crypt]
+version = "*"
+default-features = false
+edition = "2021"

@@ -1,0 +1,13 @@
+/home/rustuser/lalaa/Rust_client-server_chat/chat/server/target/debug/deps/libloading-82912d499dfaf5df.rmeta: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/libloading-0.7.1/src/lib.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/libloading-0.7.1/src/changelog.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/libloading-0.7.1/src/error.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/libloading-0.7.1/src/os/mod.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/libloading-0.7.1/src/os/unix/mod.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/libloading-0.7.1/src/os/unix/consts.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/libloading-0.7.1/src/util.rs
+
+/home/rustuser/lalaa/Rust_client-server_chat/chat/server/target/debug/deps/liblibloading-82912d499dfaf5df.rlib: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/libloading-0.7.1/src/lib.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/libloading-0.7.1/src/changelog.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/libloading-0.7.1/src/error.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/libloading-0.7.1/src/os/mod.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/libloading-0.7.1/src/os/unix/mod.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/libloading-0.7.1/src/os/unix/consts.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/libloading-0.7.1/src/util.rs
+
+/home/rustuser/lalaa/Rust_client-server_chat/chat/server/target/debug/deps/libloading-82912d499dfaf5df.d: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/libloading-0.7.1/src/lib.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/libloading-0.7.1/src/changelog.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/libloading-0.7.1/src/error.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/libloading-0.7.1/src/os/mod.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/libloading-0.7.1/src/os/unix/mod.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/libloading-0.7.1/src/os/unix/consts.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/libloading-0.7.1/src/util.rs
+
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/libloading-0.7.1/src/lib.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/libloading-0.7.1/src/changelog.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/libloading-0.7.1/src/error.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/libloading-0.7.1/src/os/mod.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/libloading-0.7.1/src/os/unix/mod.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/libloading-0.7.1/src/os/unix/consts.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/libloading-0.7.1/src/util.rs:

@@ -1,0 +1,13 @@
+/home/rustuser/lalaa/Rust_client-server_chat/chat/client/target/debug/deps/getrandom-ef3749a29b92f3d7.rmeta: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.1.16/src/lib.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.1.16/src/error.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.1.16/src/util.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.1.16/src/error_impls.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.1.16/src/util_libc.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.1.16/src/use_file.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.1.16/src/linux_android.rs
+
+/home/rustuser/lalaa/Rust_client-server_chat/chat/client/target/debug/deps/libgetrandom-ef3749a29b92f3d7.rlib: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.1.16/src/lib.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.1.16/src/error.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.1.16/src/util.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.1.16/src/error_impls.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.1.16/src/util_libc.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.1.16/src/use_file.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.1.16/src/linux_android.rs
+
+/home/rustuser/lalaa/Rust_client-server_chat/chat/client/target/debug/deps/getrandom-ef3749a29b92f3d7.d: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.1.16/src/lib.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.1.16/src/error.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.1.16/src/util.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.1.16/src/error_impls.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.1.16/src/util_libc.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.1.16/src/use_file.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.1.16/src/linux_android.rs
+
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.1.16/src/lib.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.1.16/src/error.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.1.16/src/util.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.1.16/src/error_impls.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.1.16/src/util_libc.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.1.16/src/use_file.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.1.16/src/linux_android.rs:

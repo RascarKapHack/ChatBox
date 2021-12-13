@@ -1,0 +1,22 @@
+[package]
+name = "server"
+version = "0.1.0"
+authors = ["tensor-programming <abeltensor@tensor-programming.com>"]
+
+[dependencies]
+regex = "1.5"
+chrono = "0.4"
+sqlite = "0.26.0"
+qrcode = "0.12"
+image = "0.23.14"
+colored = "2"
+sha256 = "1.0.3"
+google-authenticator = "0.2.0"
+
+[dependencies.otp]
+git = "https://github.com/TimDumol/rust-otp"
+
+[dependencies.magic-crypt]
+version = "*"
+default-features = false
+edition = "2021"

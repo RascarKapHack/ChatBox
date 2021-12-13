@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/home/rustuser/lalaa/Rust_client-server_chat/chat/client/target/debug/build/typenum-8ec5e91659fb3b61/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/home/rustuser/lalaa/Rust_client-server_chat/chat/client/target/debug/build/typenum-8ec5e91659fb3b61/out/op.rs
