@@ -4,23 +4,23 @@
 ![works-on-my-machine](img/works-on-my-machine.svg?style=centerme)
 ![60-of-the-time-works-every-time](img/60-of-the-time-works-every-time.svg?style=centerme)
 
-# ChatBox
+# 🐈 ChatBox 🐈
 
 ## 📦 Dependencies
 ```bash
 apt install sqlite3
 ```
 
-# 🔐 Encryption & Sécurity
+## 🔐 Encryption & Sécurity
 - Dynamic encryption AES256
 - QR Code generation for Two factor authentification (2FA)
 - Storage of password hashes (SHA256) in the database
 
-# 🎨 Database
+## 🎨 Database
 > sqlite3
 >> - tables : ONLINE & REGISTERED
 
-# ✅ Usage
+## ✅ Usage
 > serveur
 >>```bash
 >>cargo run
@@ -29,7 +29,6 @@ apt install sqlite3
 >>```bash
 >>cargo run
 >>```
-
 
 
 # Tutoriel
