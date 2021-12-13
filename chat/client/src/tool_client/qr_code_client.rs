@@ -56,6 +56,6 @@ pub fn qr_code_generator(user: &str, passwd: &str){
         .light_color(unicode::Dense1x2::Dark)
         .build();
     println!("{}", "\nVoici votre QR Code, scannez le avec une application comme Google Authentificator.".red().bold());
-    println!("{}", "\nCe token remplace desormais votre mot de passe. \n".red().bold());
+    println!("{}", "\nCe token s'ajoute en complément de votre mot de passe lors de l'identification. \n".red().bold());
     println!("{}", image);
 }
