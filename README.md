@@ -16,9 +16,7 @@ apt install sqlite3
 - QR Code generation for Two factor authentification (2FA)
 - Storage of password hashes (SHA256) in the database
 
-## 🎨 Database
-> **sqlite3**
->> **tables : ONLINE & REGISTERED**
+## 🎨 Database (SQLITE3)
 ### .table ONLINE
 | Client_Id |        ip:port        | statut  |
 |-----------|-----------------------|---------|
