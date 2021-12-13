@@ -62,9 +62,9 @@ apt install sqlite3
 ![Menu](img/connexion.png?style=centerme)<br></br>
 > - **OTP entry for 2FA authentication**.<br>
 ![Menu](img/otp.png?style=centerme)<br></br>
->> - **In case the entered identifiers are correct and verified in the database, the connection is successful.**.<br>
+>> - **In case the entered identifiers are correct and verified in the database, the connection is successful.**<br>
 ![Menu](img/connexion_successful.png?style=centerme)<br></br>
->> - **In case the entered credentials are not correct (Password or OTP), the connection fails and the TCP link is cut.**.<br>
+>> - **In case the entered credentials are not correct (Password or OTP), the connection fails and the TCP link is cut.**<br>
 ![Menu](img/connexion_error.png?style=centerme)<br></br>
 
 ## Serveur
