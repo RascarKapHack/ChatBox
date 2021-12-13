@@ -55,7 +55,7 @@ On choisit le premier choix pour s'inscrire. (Si l'on est déjà inscrit, on peu
 ![Inscription](img/inscription.png?style=centerme)<br></br>
 Si l'utilisateur n'est pas déjà inscrit dans la base de donnée, un QR Code est généré pour l'identification à deux facteurs.<br>
 ![Inscription-QRCode](img/inscription_qrcode.png?style=centerme)<br></br>
-⛔ Dans le cas ou l'utilisateur est déjà inscrit
+⛔ Dans le cas ou l'utilisateur est déjà inscrit, le programme signale l'erreur et coupe la connexion.<br>
 ![Inscription-Erreur](img/inscription_erreur.png?style=centerme)<br></br>
 
 ## Serveur
