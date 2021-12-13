@@ -58,7 +58,12 @@ apt install sqlite3
 >> - ⛔ **In case the user is already registered, the program reports the error and cuts the connection.**<br>
 ![Inscription-Erreur](img/inscription_erreur.png?style=centerme)<br></br>
 > - **Une fois inscrit on peut se connecter et choisir le choix n°2**
+> - **Connexion**
 ![Menu](img/connexion.png?style=centerme)<br></br>
+> - **Entrée de l'otp pour l'authentification 2FA**
+![Menu](img/otp.png?style=centerme)<br></br>
+> - **Connexion réussie**
+![Menu](img/connexion_successful.png?style=centerme)<br></br>
 
 ## Serveur
 > - ici
