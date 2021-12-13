@@ -19,6 +19,7 @@ apt install sqlite3
 ## 🎨 Database
 > sqlite3
 >> - tables : ONLINE & REGISTERED
+Hey
 | User |                           password (SHA256)                              |     ip:port (dernier)   |    status   | en_ligne |
 |------|--------------------------------------------------------------------------|-------------------------|-------------|----------|
 | leo  |     cc11410fc57ad8c7fd50839e7e97499a7d4de2e5cf6ac432ea848bbf6bcd1a67     |   192.168.1.63:38600    |     ko      |    ko    |
