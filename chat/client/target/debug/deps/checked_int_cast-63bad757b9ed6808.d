@@ -1,7 +1,0 @@
-/home/rustuser/lalaa/Rust_client-server_chat/chat/client/target/debug/deps/checked_int_cast-63bad757b9ed6808.rmeta: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/checked_int_cast-1.0.0/src/lib.rs
-
-/home/rustuser/lalaa/Rust_client-server_chat/chat/client/target/debug/deps/libchecked_int_cast-63bad757b9ed6808.rlib: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/checked_int_cast-1.0.0/src/lib.rs
-
-/home/rustuser/lalaa/Rust_client-server_chat/chat/client/target/debug/deps/checked_int_cast-63bad757b9ed6808.d: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/checked_int_cast-1.0.0/src/lib.rs
-
-/root/.cargo/registry/src/github.com-1ecc6299db9ec823/checked_int_cast-1.0.0/src/lib.rs:
