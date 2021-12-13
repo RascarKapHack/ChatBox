@@ -48,11 +48,11 @@ apt install sqlite3
 # 📕 Manual
 
 ## Serveur
-> - 
-> - 
+> - **On lance le serveur avec la commande (cargo run)**<br>
+![Menu](img/serveur.png?style=centerme)
+> - **On lance le serveur avec la commande (cargo run)**<br>
 
 ## Client
-### Menu
 > - **When launching the client (cargo run), the main menu opens. You choose the first choice to register. (If you are already registered, you can directly choose the second choice).**<br>
 ![Menu](img/menu.png?style=centerme)
 >> - **Register**<br>
