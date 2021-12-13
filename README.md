@@ -62,8 +62,10 @@ apt install sqlite3
 ![Menu](img/connexion.png?style=centerme)<br></br>
 > - **Entrée de l'otp pour l'authentification 2FA**.<br>
 ![Menu](img/otp.png?style=centerme)<br></br>
-> - **Connexion réussie**.<br>
+>> - **Connexion réussie**.<br>
 ![Menu](img/connexion_successful.png?style=centerme)<br></br>
+>> - **Connexion erreur**.<br>
+![Menu](img/connexion_error.png?style=centerme)<br></br>
 
 ## Serveur
 > - ici
