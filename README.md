@@ -66,6 +66,8 @@ apt install sqlite3
 ![Menu](img/connexion_successful.png?style=centerme)<br></br>
 >> - ⛔ **In case the entered credentials are not correct (Password or OTP), the connection fails and the TCP link is cut.**<br>
 ![Menu](img/connexion_error.png?style=centerme)<br></br>
+> - **Once you have authenticated, you can chat and enjoy a secure discussion.**<br>
+![Menu](img/chat.png?style=centerme)<br></br>
 
 ## Serveur
 > - ici
