@@ -57,6 +57,8 @@ apt install sqlite3
 ![Inscription-QRCode](img/inscription_qrcode.png?style=centerme)<br></br>
 >> - ⛔ **In case the user is already registered, the program reports the error and cuts the connection.**<br>
 ![Inscription-Erreur](img/inscription_erreur.png?style=centerme)<br></br>
+>**Une fois inscrit on peut se connecter et choisir le choix n°2**
+![Menu](img/connexion.png?style=centerme)<br></br>
 
 ## Serveur
 > - ici
