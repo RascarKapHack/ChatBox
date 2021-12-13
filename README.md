@@ -10,6 +10,11 @@
 <div style="text-align: right"> 
 This chatbox developed in Rust, uses the TCP/IP protocol to make several clients communicate with each other via a remote server. Exchanges are encrypted via a dynamic key, and a registration of the user is necessary to be able to speak on the chat. When registering, a QR Code is sent to the client's terminal. When connecting, the user must enter his password and the otp code generated via the QR Code. The server checks the integrity of the information in its database, and authorizes or not the connection. The server records each log of the actions performed on the database side, the chat history, as well as the established and failed connections.
 </div>
+| Option | Description |
+| ------:| -----------:|
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
 
 ## 📦 Dependencies
 ```bash
