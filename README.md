@@ -4,7 +4,7 @@
 ![works-on-my-machine](img/works-on-my-machine.svg?style=centerme)
 ![60-of-the-time-works-every-time](img/60-of-the-time-works-every-time.svg?style=centerme)
 
-# 🐈 ChatBox 🐈
+# ChatBox
 
 ## 📦 Dependencies
 ```bash
@@ -31,4 +31,9 @@ apt install sqlite3
 >>```
 
 
-# Tutoriel
+# 📕 Manual
+
+>## Client
+>> - la
+>## Serveur
+>> - ici
