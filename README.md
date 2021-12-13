@@ -9,6 +9,7 @@
 ## 🚩 Summary
 {: style="text-align: justify" }
 This chatbox developed in Rust, uses the TCP/IP protocol to make several clients communicate with each other via a remote server. Exchanges are encrypted via a dynamic key, and a registration of the user is necessary to be able to speak on the chat. When registering, a QR Code is sent to the client's terminal. When connecting, the user must enter his password and the otp code generated via the QR Code. The server checks the integrity of the information in its database, and authorizes or not the connection. The server records each log of the actions performed on the database side, the chat history, as well as the established and failed connections.
+<p style="text-align:justify;">Texte justifié : Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
 
 ## 📦 Dependencies
 ```bash
