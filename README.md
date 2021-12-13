@@ -51,14 +51,14 @@ apt install sqlite3
 >>```
 
 
-# 📕 Manual
+## 📕 Manual
 
-## Serveur
+### Serveur
 > - **We start the server with the command (cargo run).**<br>
 ![Serveur](img/serveur.png?style=centerme)
 > - **When the server is launched, the ONLINE and REGISTERED tables are created. If the REGISTERED table already exists, it is not created. Each message, registration and modification log in the database is saved in /log/sql.log /log/info.log log/credentials.log log/chat.log**<br>
 
-## Client
+### Client
 > - **We start the client with the command (cargo run).**<br>
 ![Client](img/client.png?style=centerme)
 > - **When launching the client, the main menu opens. You choose the first choice to register. (If you are already registered, you can directly choose the second choice).**<br>
@@ -81,4 +81,4 @@ apt install sqlite3
 > - **Once you have authenticated, you can chat and enjoy a secure discussion.**<br>
 ![Chat](img/chat.png?style=centerme)<br></br>
 
-# 🏁 The End
+## 🏁 The End
