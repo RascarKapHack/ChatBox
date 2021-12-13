@@ -53,7 +53,7 @@ En lancant le client (cargo run), le menu principal s'ouvre.
 ![Menu](img/menu.png?style=centerme)<br></br>
 On choisit le premier choix pour s'inscrire. (Si l'on est déjà inscrit, on peut directement choisir le choix n°2)
 ![Inscription](img/inscription.png?style=centerme)<br></br>
-Si l'utilisateur n'est pas déjà inscrit dans la base de donnée, un QR Code est généré pour l'identification à deux facteurs.
+Si l'utilisateur n'est pas déjà inscrit dans la base de donnée, un QR Code est généré pour l'identification à deux facteurs.<br>
 ![Inscription-QRCode](img/inscription_qrcode.png?style=centerme)<br></br>
 
 ## Serveur
