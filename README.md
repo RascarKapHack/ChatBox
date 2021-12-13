@@ -6,6 +6,9 @@
 
 # ChatBox
 
+## 🚩 Summary
+bim bam boum
+
 ## 📦 Dependencies
 ```bash
 apt install sqlite3
