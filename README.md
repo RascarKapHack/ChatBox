@@ -18,6 +18,7 @@ apt install sqlite3
 ## 🔐 Encryption & Encode & Security
 - Dynamic encryption AES256
 - QR Code generation for Two factor authentification (2FA)
+- Anti-ID theft system
 - Storage of password hashes (SHA256) in the database
 - Base64 & Base32 Encode
 
