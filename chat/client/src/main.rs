@@ -221,71 +221,6 @@ fn main() {
             break;
         }
     }
-    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    /*
-    // Connection
-    println!("je suis ici");
-    println!("{}", input_choice);
-    input_choice="".to_string();
-    loop{
-        println!("{}", "\n    Vous pouvez dès à présent vous connecter".blue().bold());
-        println!("{}{}","\n\n    ","1) S'inscrire".white().strikethrough());
-        println!("{}", "\n    2) Se connecter\n\n".blue().bold());
-        match io::stdin().read_line(& mut input_choice){
-            Ok(1) => {
-                    break;
-            }
-            Ok(2) => {
-                let input_choice_without_n = input_choice.replace("\n","");
-                if input_choice_without_n == "1"{
-                    //input_choice="1\n".to_string();
-                    println!("{}","Vous êtes déjà inscrit ! Veuillez vous connecter dès à présent".red().bold());
-                }
-                if input_choice_without_n == "2"{
-                    input_choice="2\n".to_string();
-
-
-
-                    break;
-                }
-                //println!("{:?}", input_choice);
-                input_choice="".to_string();
-            }
-
-            Ok(_) => {
-                println!("{}","Here we go again :D".italic().magenta());
-            }
-            Err(e) => println!("oups {}", e)
-        }
-    }
-    */
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    
-    // Connection de l'ancienne d'autrefois
-    /*
-    loop{
-        println!("{}", "\n    Vous pouvez dès à présent vous connecter".blue().bold());
-        println!("{}{}","\n\n    ","1) S'inscrire".white().strikethrough());
-        println!("{}", "\n    2) Se connecter\n\n".blue().bold());
-
-        match io::stdin().read_line(& mut input_choice){
-            Ok(1) => {
-                if input_user.len() > 1{
-                    // println!("{}", input_choice);
-                    break;
-                }
-            }
-            Ok(2) => {
-                // println!("{}", input_choice);
-                break;
-            }
-            Ok(_) => {
-                println!("Somehow we come back here :D");
-            }
-            Err(e) => println!("oups {}", e)
-        }
-    }
-    */
 
     let mut input_choice = String::new();
     let mut input_user = String::new();
@@ -380,12 +315,7 @@ fn main() {
                 
                         thread::sleep(Duration::from_millis(100));
                     });
-                    
-                    //let ararara: [String; 2] = [String::from(input_user2.to_string()+"\n\t\n"+&input_password_deux.to_string()),String::from("inscription").to_string()];
-                    //let ararara: [String; 3] = [String::from(input_user2.to_string().replace("\n","")), String::from(input_password_deux.to_string().replace("\n","")),String::from("inscription").to_string()];
-                    //let envoi_informations = 
-                    //println!("{:?}", ararara);
-                    
+                                        
                     loop {
                         let buff2;
                         input_user2.push_str("-");
@@ -441,27 +371,6 @@ fn main() {
         //otp: String::from(input_otp),
     };
 
-    //let array: [String; 2] = [String::from(info.choice.to_string()+"\n\t\n"+&info.user.to_string()+"\n\t\n"+&info.password.to_string()),String::from(":quit")];
-    //println!("{:?}", array);
-    
-
-    /*
-    let mc = magic_crypt::new_magic_crypt!("magickeydeouf", 256);
-    let base64 = mc.encrypt_str_to_base64("http://magiclen.org");
-    println!("{}",base64);
-    */
-    //println!("{}", mc.decrypt("base64"));
-    
-    /*
-    let secret = "I3VFM3JKMNDJCDH5BMBEEQAW6KJ6NOE3";
-    let auth = GoogleAuthenticator::new();
-    // let secret = auth.create_secret(32);
-    let code = auth.get_code(&secret, 0).unwrap();
-
-    assert!(auth.verify_code(&secret, &code, 1, 0).unwrap());*/
-
-
-
     //println!("{:?}", client);
     let mut client = TcpStream::connect(LOCAL).expect("Stream failed to connect");
     client.set_nonblocking(true).expect("failed to initiate non-blocking");
@@ -487,13 +396,6 @@ fn main() {
                     Err(_) => ()
                 }
 
-                //println!("{}", message);
-                //println!("{}", info.password.to_string());
-
-                //println!("TOTP: {:?}", otp::make_totp(&("base32secret3232".to_ascii_uppercase()), 30, 0).unwrap());
-                /*if inscription == true{
-                    println!("[{}] - {:?}", now.format("%b %-d, %-I:%M").to_string(), message);
-                }*/
             },
             Err(ref err) if err.kind() == ErrorKind::WouldBlock => (),
             Err(_) => {
@@ -514,11 +416,7 @@ fn main() {
 
         thread::sleep(Duration::from_millis(100));
     });
-        
-    //println!(" les informations de connection sont {} {} {}", input_choice, input_password, input_user);
-    //println!("{:?} {:?} {:?}", info.user, info.password, info.OTP);
-    //println!("\n\nchoice : {} user : {} password : {}", input_choice, input_user, input_password);
-    
+            
     // Envoie les informations de connection au serveur. Panique si les informations ne sont pas bonnes. 
 
     // ne sert a rien
@@ -541,12 +439,7 @@ fn main() {
 
         let mc = magic_crypt::new_magic_crypt!("cledeouf", 256);
         let base64_msg = mc.encrypt_str_to_base64(msg);
-        /*
-        for x in array {
-            buff2 = x.to_string();
-            let msg = buff2.trim().to_string();
-            if msg == ":quit" || tx.send(msg).is_err() {break}
-        }*/
+
         break;
     }
     
