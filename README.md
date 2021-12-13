@@ -80,3 +80,5 @@ apt install sqlite3
 ![Connexion_Error](img/connexion_error.png?style=centerme)<br></br>
 > - **Once you have authenticated, you can chat and enjoy a secure discussion.**<br>
 ![Chat](img/chat.png?style=centerme)<br></br>
+
+# 🏁 The End
