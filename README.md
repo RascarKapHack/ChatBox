@@ -17,13 +17,19 @@ apt install sqlite3
 - Storage of password hashes (SHA256) in the database
 
 ## 🎨 Database
-> sqlite3
->> tables : ONLINE & REGISTERED
-### table
-| User |                           password (SHA256)                              |     ip:port (dernier)   |    status   | en_ligne |
+> **sqlite3**
+>> **tables : ONLINE & REGISTERED**
+### .table ONLINE
+| Client_Id |        ip:port        | statut  |
+|-----------|-----------------------|---------|
+|  htag     |  192.168.1.63:38520   | online  |
+|  Client2  |  192.168.1.123:48150  | anonyme |
+
+### .table REGISTERED
+| User |                           password (SHA256)                              |      ip:port (last)     |    statut   |  online  |
 |------|--------------------------------------------------------------------------|-------------------------|-------------|----------|
 | leo  |     cc11410fc57ad8c7fd50839e7e97499a7d4de2e5cf6ac432ea848bbf6bcd1a67     |   192.168.1.63:38600    |     ko      |    ko    |
-| htag |     2652875ee631c6fee36e7ebee192e8bdcdf54566f3c380e7bd3feb2adbc879e4     |   192.168.1.63:38520    |     ko      |    ko    |
+| htag |     2652875ee631c6fee36e7ebee192e8bdcdf54566f3c380e7bd3feb2adbc879e4     |   192.168.1.63:38520    |     ok      |    ok    |
 
 ## ✅ Usage
 > serveur
