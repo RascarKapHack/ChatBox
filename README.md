@@ -48,10 +48,12 @@ apt install sqlite3
 # 📕 Manual
 
 ## Client
-> - Menu principal
-> ## Menu 
+### Menu
+En lancant le client (cargo run), le menu principal s'ouvre.
 ![Menu](img/menu.png?style=centerme)
-> - ici
+On choisit le premier choix pour s'inscrire.
+![Inscription](img/inscription.png?style=centerme)
+
 ## Serveur
 > - ici
 > - là
