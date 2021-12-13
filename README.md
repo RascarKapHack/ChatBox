@@ -47,6 +47,10 @@ apt install sqlite3
 
 # 📕 Manual
 
+## Serveur
+> - 
+> - 
+
 ## Client
 ### Menu
 > - **When launching the client (cargo run), the main menu opens. You choose the first choice to register. (If you are already registered, you can directly choose the second choice).**<br>
@@ -68,7 +72,3 @@ apt install sqlite3
 ![Menu](img/connexion_error.png?style=centerme)<br></br>
 > - **Once you have authenticated, you can chat and enjoy a secure discussion.**<br>
 ![Menu](img/chat.png?style=centerme)<br></br>
-
-## Serveur
-> - ici
-> - là
