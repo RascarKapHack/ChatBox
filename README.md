@@ -49,9 +49,9 @@ apt install sqlite3
 
 ## Client
 ### Menu
-> - **When launching the client (cargo run), the main menu opens.**
+> - **When launching the client (cargo run), the main menu opens. You choose the first choice to register. (If you are already registered, you can directly choose the second choice).**<br>
 ![Menu](img/menu.png?style=centerme)<br></br>
->> - **You choose the first choice to register. (If you are already registered, you can directly choose the second choice).**<br>
+>> - **Register**<br>
 ![Inscription](img/inscription.png?style=centerme)<br></br>
 >> - **If the user is not already registered in the database, a QR Code is generated for two-factor identification.**<br>
 ![Inscription-QRCode](img/inscription_qrcode.png?style=centerme)<br></br>
