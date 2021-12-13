@@ -35,7 +35,7 @@ apt install sqlite3
 | htag |     2652875ee631c6fee36e7ebee192e8bdcdf54566f3c380e7bd3feb2adbc879e4     |   192.168.1.63:38520    |     ok      |    ok    |
 
 ## 🥡 Project Structure
->
+> - **The project is divided into two files. Clients and Server. The client as well as the server has a module, where the functions are located.**
 ![Tree](img/tree.png?style=centerme)
 
 ## ✅ Usage
