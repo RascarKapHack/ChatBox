@@ -50,9 +50,10 @@ apt install sqlite3
 ## Serveur
 > - **We start the server with the command (cargo run).**<br>
 ![Menu](img/serveur.png?style=centerme)
-> - **When the server is launched, the ONLINE and REGISTERED tables are created. If the REGISTERED table already exists, it is not created. Each message, registration and modification log in the database is saved in /log/sql.log /log/info.log log/credentials.log**<br>
+> - **When the server is launched, the ONLINE and REGISTERED tables are created. If the REGISTERED table already exists, it is not created. Each message, registration and modification log in the database is saved in /log/sql.log /log/info.log log/credentials.log log/chat.log**<br>
 
 ## Client
+![Menu](img/client.png?style=centerme)
 > - **When launching the client (cargo run), the main menu opens. You choose the first choice to register. (If you are already registered, you can directly choose the second choice).**<br>
 ![Menu](img/menu.png?style=centerme)
 >> - **Register**<br>
