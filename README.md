@@ -48,7 +48,7 @@ apt install sqlite3
 # 📕 Manual
 
 ## Client
-> - la
+> - Menu principal
 > - ici
 ## Serveur
 > - ici
