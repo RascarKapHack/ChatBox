@@ -6,7 +6,7 @@
 
 # ChatBox
 
-# 📦 Dependencies
+## 📦 Dependencies
 ```bash
 apt install sqlite3
 ```
@@ -29,3 +29,5 @@ apt install sqlite3
 >>```bash
 >>cargo run
 >>```
+
+# Tutoriel
