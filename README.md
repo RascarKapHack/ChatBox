@@ -57,14 +57,14 @@ apt install sqlite3
 ![Inscription-QRCode](img/inscription_qrcode.png?style=centerme)<br></br>
 >> - ⛔ **In case the user is already registered, the program reports the error and cuts the connection.**<br>
 ![Inscription-Erreur](img/inscription_erreur.png?style=centerme)<br></br>
-> - **Une fois inscrit on peut se connecter et choisir le choix n°2**
-> - **Connexion**.<br>
+> - **Once registered, you can log in and choose choice n°2.**
+> - **Login**.<br>
 ![Menu](img/connexion.png?style=centerme)<br></br>
-> - **Entrée de l'otp pour l'authentification 2FA**.<br>
+> - **OTP entry for 2FA authentication**.<br>
 ![Menu](img/otp.png?style=centerme)<br></br>
->> - **Connexion réussie**.<br>
+>> - **In case the entered identifiers are correct and verified in the database, the connection is successful.**.<br>
 ![Menu](img/connexion_successful.png?style=centerme)<br></br>
->> - **Connexion erreur**.<br>
+>> - **In case the entered credentials are not correct (Password or OTP), the connection fails and the TCP link is cut.**.<br>
 ![Menu](img/connexion_error.png?style=centerme)<br></br>
 
 ## Serveur
