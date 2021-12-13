@@ -11,14 +11,7 @@ It is an end-to-end(s) communication system using a AES256-CBC encryption model.
 every received messages to all the clients connected and authenticated.
 
 # zz
-<p align="center">
-  <b>Some Links:</b><br>
-  <a href="#">Link 1</a> |
-  <a href="#">Link 2</a> |
-  <a href="#">Link 3</a>
-  <br><br>
-  <img src="http://s.4cdn.org/image/title/105.gif">
-</p>
+<h1 align="center">Material Bread</h1>
 
 # 💻 Technos
 - **AES256-CBC**
