@@ -49,7 +49,7 @@ apt install sqlite3
 
 ## Client
 > - Menu principal
-![Menu](img/menu.png?style=centerme)
+>![Menu](img/menu.png?style=centerme)
 > - ici
 ## Serveur
 > - ici
