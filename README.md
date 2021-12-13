@@ -4,6 +4,7 @@
 ![works-on-my-machine](img/works-on-my-machine.svg?style=centerme)
 ![60-of-the-time-works-every-time](img/60-of-the-time-works-every-time.svg?style=centerme)
 ![compatibility-club-penguin.svg](img/compatibility-club-penguin.svg?style=centerme)
+![powered-by-rascar.svg](img/powered-by-rascar.svg?style=centerme)
 
 # ChatBox
 
