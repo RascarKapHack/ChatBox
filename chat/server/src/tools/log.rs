@@ -4,7 +4,7 @@ use std::process::Command;
 pub fn write_log(message: String, file: String) -> std::string::String{
     let mut commande_linux = String::new();
     commande_linux.push_str("echo '");
-    commande_linux.push_str(&chrono::Utc::now().to_string());
+    commande_linux.push_str(&chrono::Utc::now().format("%b %-d, %-I:%M").to_string());
     commande_linux.push_str(" : ");
     commande_linux.push_str(&message);
     commande_linux.push_str("' >> src/logs/");

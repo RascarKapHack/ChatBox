@@ -22,10 +22,10 @@ fn sleep() {
 }
 
 fn main() {
-
+    /*
     let cle_chiffrement_master = tools::chiffrement::cle_chiffrement();
     println!("La clé de chiffrement : {}", cle_chiffrement_master);
-    tools::log::write_log_info("Nouvelle connexion".to_string());
+    */
 
     tools::design::affiche_serveur();
 
@@ -45,6 +45,7 @@ fn main() {
         if let Ok((mut socket, addr)) = server.accept() {
             let connection_du_client = "Le client ".to_owned() + &addr.to_string() + " s'est connecté";
             println!("{}", connection_du_client);
+            tools::log::write_log_info("Nouvelle connexion".to_string());
             tools::log::write_log_credential(connection_du_client.to_string());
             //println!("{}", number);
 
@@ -451,19 +452,19 @@ mod log{
     use super ::*;
     #[test]
     fn write_log_sql() {
-        assert_eq!(tools::log::write_log_sql("Message".to_string()), "echo 'Message' >> src/logs/sql.log");
+        assert_eq!(tools::log::write_log_sql("Cargo test".to_string()), "echo '".to_owned()+&chrono::Utc::now().format("%b %-d, %-I:%M").to_string()+" : Cargo test' >> src/logs/sql.log");
     }
     #[test]
     fn write_log_credentials() {
-        assert_eq!(tools::log::write_log_credential("Message".to_string()), "echo 'Message' >> src/logs/credential.log");
+        assert_eq!(tools::log::write_log_credential("Cargo test".to_string()), "echo '".to_owned()+&chrono::Utc::now().format("%b %-d, %-I:%M").to_string()+" : Cargo test' >> src/logs/credential.log");
     }
     #[test]
     fn write_log_info() {
-        assert_eq!(tools::log::write_log_info("Message".to_string()), "echo 'Message' >> src/logs/info.log");
+        assert_eq!(tools::log::write_log_info("Cargo test".to_string()), "echo '".to_owned()+&chrono::Utc::now().format("%b %-d, %-I:%M").to_string()+" : Cargo test' >> src/logs/info.log");
     }
     #[test]
     fn write_log_chat() {
-        assert_eq!(tools::log::write_log_chat("Message".to_string()), "echo 'Message' >> src/logs/chat.log");
+        assert_eq!(tools::log::write_log_chat("Cargo test".to_string()), "echo '".to_owned()+&chrono::Utc::now().format("%b %-d, %-I:%M").to_string()+" : Cargo test' >> src/logs/chat.log");
     }
     #[test]
     fn affiche_serveur() {

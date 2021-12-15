@@ -27,8 +27,9 @@ pub fn string_to_base32(secret: String) -> std::string::String{
     base32_return
 }
 
+/*
 // retourne la date UTC hashée
 pub fn cle_chiffrement() -> std::string::String{
     let cle_chiffrement = chrono::Utc::today();
     sha256::digest(cle_chiffrement.to_string())
-}
+}*/

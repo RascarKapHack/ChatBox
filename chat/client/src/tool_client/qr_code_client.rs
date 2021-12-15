@@ -2,7 +2,6 @@ extern crate qrcode;
 use qrcode::QrCode;
 use qrcode::render::unicode;
 extern crate magic_crypt;
-use magic_crypt::MagicCryptTrait;
 extern crate colored;
 use colored::*;
 extern crate sha256;

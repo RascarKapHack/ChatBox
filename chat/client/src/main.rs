@@ -21,18 +21,18 @@ const LOCAL: &str = "192.168.1.63:6001";
 const MSG_SIZE: usize = 128;
 
 fn main() {
-
+    /*
     struct Identification{
         user: String,
         password: String,
         choice: String,
-    }
+    }*/
 
     let mut inscription = false;
     let mut input_choice = String::new();
     let mut input_user = String::new();
     let mut input_password = String::new();
-    let mut input_otp = String::new();
+    //let mut input_otp = String::new();
 
     //message de bienvenue
     tool_client::design::client();
@@ -222,7 +222,7 @@ fn main() {
         }
     }
 
-    let mut input_choice = String::new();
+    //let mut input_choice = String::new();
     let mut input_user = String::new();
     let mut input_password = String::new();
     let mut input_otp = String::new();
@@ -262,7 +262,7 @@ fn main() {
 
                     let mut input_user2 = input_user.clone().replace("\n","");
                     let input_password_deux = input_password.clone().replace("\n","");
-                    let input_choice_deux = input_choice.clone().replace("\n","");
+                    //let input_choice_deux = input_choice.clone().replace("\n","");
                     let input_otp_deux = input_otp.clone().replace("\n","");
 
                     // envoyer une demande au serveur et si retour positif ok
@@ -364,12 +364,12 @@ fn main() {
 
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    let info = Identification {
+    /*let info = Identification {
         user: String::from(input_user),
         password: String::from(input_password),
         choice: String::from(input_choice),
         //otp: String::from(input_otp),
-    };
+    };*/
 
     //println!("{:?}", client);
     let mut client = TcpStream::connect(LOCAL).expect("Stream failed to connect");
@@ -420,8 +420,9 @@ fn main() {
     // Envoie les informations de connection au serveur. Panique si les informations ne sont pas bonnes. 
 
     // ne sert a rien
+    /*
     loop {
-        let mut buff2;
+        let buff2;
         
         let mut credentials = String::new();
         credentials.push_str("batlesta");
@@ -437,11 +438,11 @@ fn main() {
         //buff2 = ararara[0].to_string();
         let msg = buff2.trim().to_string();
 
-        let mc = magic_crypt::new_magic_crypt!("cledeouf", 256);
-        let base64_msg = mc.encrypt_str_to_base64(msg);
+        //let mc = magic_crypt::new_magic_crypt!("cledeouf", 256);
+        //let base64_msg = mc.encrypt_str_to_base64(msg);
 
         break;
-    }
+    }*/
     
     //
     // Lancement du programme si retour ok du serveur
